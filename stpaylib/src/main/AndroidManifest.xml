@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application>
-        <activity android:name="cn.stormbirds.stpaylib.cn.stormbirds.stpaylib.modelormbirds.stpaylib.PaymentActivity"
+        <activity android:name="cn.stormbirds.stpaylib.PaymentActivity"
             android:configChanges="orientation|keyboardHidden|navigation|screenSize"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
