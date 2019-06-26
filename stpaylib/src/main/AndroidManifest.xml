@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.stormbirds.stpaylib">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name="cn.stormbirds.stpaylib.cn.stormbirds.stpaylib.modelormbirds.stpaylib.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+    </application>
+
+</manifest>
