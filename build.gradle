@@ -19,10 +19,10 @@ allprojects {
     repositories {
         google()
         jcenter()
-        flatDir {
-//            dirs 'libs','../stpaylib/libs'
-            dirs project(':stpaylib').file('libs'),'libs'
-        }
+//        flatDir {
+////            dirs 'libs','../stpaylib/libs'
+//            dirs project(':stpaylib').file('libs'),'libs'
+//        }
     }
 }
 
